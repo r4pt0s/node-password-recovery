@@ -5,15 +5,15 @@ A sample of how to build a password recovery workflow with node js.
 
 ## Enviroment Variables
 Before it is ready to use, there are two environment variables which have to be set up:
-
-    * process.env.NODEMAILER_EMAIL => This is the email adress which should be used
-    * process.env.NODEMAILER_PASS  => This is the password for the email account which should be used
+    
+* process.env.NODEMAILER_EMAIL => This is the email adress which should be used
+* process.env.NODEMAILER_PASS  => This is the password for the email account which should be used
 
 Other Enviroment Variables which are predefined with standard values are:
     
-    * process.env_PORT          => Port at which the node server listens (default: 3000)
-    * process.env_IP            => IP adress which the node server listens (default: localhost or 127.0.0.1)
-    * process.env.MONGODBPORT   => MongoDB Port which should be used (default: 27017)
+* process.env_PORT          => Port at which the node server listens (default: 3000)
+* process.env_IP            => IP adress which the node server listens (default: localhost or 127.0.0.1)
+* process.env.MONGODBPORT   => MongoDB Port which should be used (default: 27017)
 
 ## MongoDB Database and User Model
 For storing and testing, a mongoDB Database with the name **pwRecoverTest** will be created at first run of app.js.
