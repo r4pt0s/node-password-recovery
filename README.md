@@ -30,9 +30,9 @@ Four fields are important to make this code work:
 For easier testing this standalone code, a seeds file is included. It's located under ./seeds.js and nearly ready to use.
 To send test emails, you have to make changes to at least on line 12 where it says:
 
-    ```javascript
-    email: "FILL IN YOUR TEST EMAIL ADRESS"
-    ```
+```javascript
+email: "FILL IN YOUR TEST EMAIL ADRESS"
+```
 
 Replace **FILL IN YOUR TEST EMAIL ADRESS** with an email adress which you own for testing purpose.
 
